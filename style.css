@@ -127,10 +127,10 @@ img {
   color: white;
   text-decoration: none;
   margin-left: 10px;
-  border: 1px solid tomato;
+  border: 1px solid indianred;
   border-radius: 2px;
   padding: 2px;
-  background: green;
+  background: #f4c151;
 }
 
 .project-info {
