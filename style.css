@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1em;
 }
 
@@ -18,11 +18,11 @@ header {
   z-index: 5;
 }
 nav h1 {
-  border: 3px solid black;
+  border: 3px solid #5d2e26;
   padding: 15px;
   margin-top: 10px;
   font-size: 1.5em;
-  background: #f4c151;
+  background: #00bfa6;
   color: white;
 }
 
@@ -42,16 +42,16 @@ nav li {
   margin-left: 20px;
   padding: 10px;
   font-size: 1.2em;
-  font-family: "Ribeye Marrow", cursive;
 }
 
 nav a {
-  color: darkslategrey;
+  color: #5d2e26;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-  color: tomato;
+  color: #26555d;
 }
 
 section {
@@ -69,29 +69,39 @@ section {
   max-width: 40em;
   margin: 0 auto;
   background: white;
-  color: darkslategrey;
+  font-size: 1.1em;
+  color: #5d2e26;
   padding: 40px 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
 
-.hi {
-  font-size: 1.7em;
-  background: blueviolet;
+.intro h2 {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1em;
+  border-left: 1px solid #5d2e26;
+  background-color: #00bfa6;
   color: white;
-  border-radius: 30% 20% 40% 10%;
-  padding: 6px;
+  padding: 5px 10px;
+}
+
+.tech-stack {
+  background-color: #e1e2e2;
 }
 
 .view-projects {
-  padding: 8px;
-  max-width: 50%;
-  margin: auto;
-  background: indianred;
+  background: #5d2e26;
   color: white;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  padding: 5px;
+  padding: 0.75em 1em;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 img {
@@ -113,24 +123,24 @@ img {
 }
 
 .project-container {
-  border: 1px solid black;
+  border: 1px solid #dcd6d6;
   justify-content: center;
   align-content: center;
   padding: 10px;
   text-align: center;
-  font-family: "VT323", monospace;
-  border-radius: 10px 10px 10px 0;
   background: #fcedfc;
+  font-family: "Raleway", sans-serif;
 }
 
 .project-info a {
   color: white;
   text-decoration: none;
   margin-left: 10px;
-  border: 1px solid indianred;
+  border: 1px solid #00bfa6;
   border-radius: 2px;
-  padding: 2px;
-  background: #f4c151;
+  padding: 5px 20px;
+  font-weight: 800;
+  background: #5d2e26;
 }
 
 .project-info {
@@ -139,11 +149,12 @@ img {
 }
 
 .project-info a:hover {
-  color: tomato;
+  color: #00bfa6;
 }
 
 .project-description {
   border-top: 1px solid black;
+  color: #5d2e26;
 }
 
 /** footer **/
@@ -157,7 +168,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: grey;
+  color: #9b9e9e;
 }
 
 .social-links li {
@@ -166,13 +177,12 @@ footer {
 
 .social-links li a {
   font-size: 2.5em;
-  /* color: grey; */
   color: white;
   padding: 10px 10px;
 }
 
 .social-links a:hover {
-  color: tomato;
+  color: #9b9e9e;
 }
 
 .copyright {
@@ -189,7 +199,7 @@ footer {
   }
 
   .intro p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   #projects {
     display: grid;
