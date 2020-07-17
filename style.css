@@ -50,7 +50,8 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
   color: #26555d;
 }
 
@@ -148,7 +149,8 @@ img {
   border-top: 1px solid black;
 }
 
-.project-info a:hover {
+.project-info a:hover,
+.project-info a:focus {
   color: #00806f;
 }
 
@@ -181,7 +183,8 @@ footer {
   padding: 10px 10px;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+.social-links a:focus {
   color: #9b9e9e;
 }
 
