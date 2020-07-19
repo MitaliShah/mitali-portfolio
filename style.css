@@ -22,7 +22,7 @@ nav h1 {
   padding: 15px;
   margin-top: 10px;
   font-size: 1.5em;
-  background: #00806f;
+  background: #737373;
   color: white;
 }
 
@@ -76,6 +76,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   letter-spacing: 3px;
+  line-height: 1.6;
 }
 
 .intro h2 {
@@ -95,14 +96,19 @@ section {
 }
 
 .view-projects {
-  background: #5d2e26;
-  color: white;
+  background: white;
+  color: black;
+  border: 1px solid black;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em 1em;
+  padding: 0.5em 0.75em;
   font-weight: bold;
-  margin-top: 10px;
+}
+
+.view-projects:hover {
+  background: #5d2e26;
+  color: white;
 }
 
 img {
@@ -133,15 +139,20 @@ img {
   font-family: "Raleway", sans-serif;
 }
 
+.project-title {
+  padding: 6px 0;
+  line-height: 1.6;
+}
+
 .project-info a {
-  color: white;
+  background: white;
+  color: black;
+  border: 1px solid black;
   text-decoration: none;
   margin-left: 10px;
-  border: 1px solid #00806f;
   border-radius: 2px;
   padding: 5px 20px;
   font-weight: 800;
-  background: #5d2e26;
 }
 
 .project-info {
@@ -151,12 +162,18 @@ img {
 
 .project-info a:hover,
 .project-info a:focus {
-  color: #00806f;
+  background: #5d2e26;
+  color: white;
 }
 
 .project-description {
   border-top: 1px solid black;
   color: #5d2e26;
+}
+
+.external a {
+  color: #00806f;
+  text-decoration: none;
 }
 
 /** footer **/
