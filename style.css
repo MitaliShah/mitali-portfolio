@@ -60,7 +60,20 @@ section {
 }
 
 #home {
-  background: #fcedfc;
+  background-image: linear-gradient(
+  65deg,
+  hsl(240deg 13% 86%) 0%,
+  hsl(246deg 23% 87%) 21%,
+  hsl(252deg 34% 87%) 30%,
+  hsl(258deg 45% 88%) 39%,
+  hsl(265deg 55% 88%) 46%,
+  hsl(272deg 64% 88%) 54%,
+  hsl(279deg 70% 87%) 61%,
+  hsl(287deg 75% 87%) 69%,
+  hsl(295deg 76% 86%) 79%,
+  hsl(303deg 83% 86%) 100%
+);
+  /* background: #fcedfc; */
   display: flex;
   justify-content: center;
   align-items: center;
